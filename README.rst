@@ -13,6 +13,8 @@ a production service, Faker is for you.
 
 Faker is heavily inspired by `PHP Faker`_, `Perl Faker`_, and by `Ruby Faker`_.
 
+This is a fork to make the generators return non-repeating values to help with uniqueness constraints in tests using SQL databases.
+
 ----
 
 |pypi| |unix_build| |windows_build| |coverage| |license|
